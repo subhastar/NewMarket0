@@ -6,5 +6,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="addshirt">Add a Shirt</string>
     <string name="title_activity_shirt">ShirtActivity</string>
+    <string name="shirtName">Shirt Name</string>
+    <string name="enterShirtName">Enter Shirt Name</string>
+    <string name="save">Save</string>
 
 </resources>

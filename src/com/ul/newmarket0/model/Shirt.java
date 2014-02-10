@@ -1,6 +1,12 @@
 package com.ul.newmarket0.model;
 
-public class Shirt {
+import java.io.Serializable;
+
+public class Shirt implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2320524996732715349L;
 	private String name;
 
 	public String getName() {
