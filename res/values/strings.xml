@@ -9,5 +9,6 @@
     <string name="shirtName">Shirt Name</string>
     <string name="enterShirtName">Enter Shirt Name</string>
     <string name="save">Save</string>
+    <string name="take_pic">Take Pic</string>
 
 </resources>

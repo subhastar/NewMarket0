@@ -21,6 +21,14 @@
 
         <requestFocus />
     </EditText>
+    
+    <ImageView
+        android:id="@+id/ivShirtPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher" />
 
     <TextView
         android:id="@+id/tvName"
@@ -41,5 +49,14 @@
         android:layout_marginBottom="128dp"
         android:text="@string/save"
         android:onClick="saveShirt"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etShirtName"
+        android:layout_centerHorizontal="true"
+        android:onClick="onLaunchCamera"
+        android:text="@string/take_pic" />
 
 </RelativeLayout>
